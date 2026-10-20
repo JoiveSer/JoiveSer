@@ -67,6 +67,11 @@ My work covers a broad spectrum of software engineering:
 
 ### 🛡️ Reverse Engineering & Binary Analysis Suite
 
+* **[DeReflect-IR](https://github.com/JoiveSer/DeReflect-IR)** — *SMT-Driven Symbolic Execution Deobfuscator & CFG Reconstruction Engine for Modern .NET (6 / 8 / 9 / 10).*
+  * Operates on raw CIL bytecode via AsmResolver 6.0, constructing basic block CFGs and dominance trees (Cooper-Harvey-Kennedy idom).
+  * Features an in-memory symbolic SMT execution engine for mathematical control flow deflattening (CFF) and opaque predicate elimination.
+  * Reconstructs clean method bodies, repairs MaxStack / exception handling, and inlines encrypted strings and proxy delegates.
+
 * **[ProtoSieve](https://github.com/JoiveSer/ProtoSieve)** — *Zero-knowledge static schema recovery engine for table-driven Protobuf (`TcParseTable` & `upb_MiniTable`) from stripped PE/ELF binaries.*
   * Recovers message field boundaries, wire types, tag identifiers, and packed struct offsets from read-only data without reflection tables.
   * Emits compilable `.proto` schema definitions and structured JSON AST models with zero heap allocation overhead.

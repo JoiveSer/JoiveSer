@@ -2,14 +2,15 @@
 
 # JoiveSer
 
-### Senior Low-Level Systems & Reverse Engineering Architect
-**Windows Internals | Memory Topology | Native Runtimes | Binary Deobfuscation**
+### Software Architect, Game Modder & Systems Engineer
+**C# / .NET | Game Modding & Internals | Systems Programming | Reverse Engineering**
 
 <br/>
 
+[![C# / .NET](https://img.shields.io/badge/C%23-Modern%20.NET-161b22?style=flat-square&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/)
+[![Rust Systems](https://img.shields.io/badge/Rust-Systems%20%7C%20Tooling-161b22?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![C++20/23](https://img.shields.io/badge/C%2B%2B-20%2F23-161b22?style=flat-square&logo=c%2B%2B&logoColor=white)](https://en.cppreference.com/)
-[![Rust Systems](https://img.shields.io/badge/Rust-Systems%20%7C%20No__Std-161b22?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![x86_64 / AArch64](https://img.shields.io/badge/ASM-x86__64%20%7C%20AArch64-161b22?style=flat-square&logo=assemblyscript&logoColor=white)](https://software.intel.com/content/www/us/en/develop/download/intel-64-and-ia-32-architectures-sdm-combined-volumes-1-2a-2b-2c-2d-3a-3b-3c-3d-and-4.html)
+[![Game Modding](https://img.shields.io/badge/Modding-NeoForge%20%7C%20Game%20Internals-161b22?style=flat-square&logo=curseforge&logoColor=white)](https://github.com/JoiveSer)
 [![Windows NTAPI](https://img.shields.io/badge/Windows-NTAPI%20%7C%20Win32-161b22?style=flat-square&logo=windows&logoColor=white)](https://learn.microsoft.com/en-us/windows/win32/)
 [![Binary Analysis](https://img.shields.io/badge/Analysis-IDA%20%7C%20Ghidra%20%7C%20x64dbg-161b22?style=flat-square&logo=target&logoColor=white)](https://github.com/JoiveSer)
 [![Support Ko-fi](https://img.shields.io/badge/Support-Ko--fi-161b22?style=flat-square&logo=ko-fi&logoColor=FF5E5B)](https://ko-fi.com/joive)
@@ -20,27 +21,35 @@
 
 ## 🏛️ Architectural Profile
 
-Systems programming and binary analysis engineer focused on the intersection of operating system internals, compiler transformation logic, and executable security analysis. Technical scope encompasses low-overhead runtime scheduling via undocumented NTAPI interfaces, automated static lifting of virtualized bytecode to intermediate representations, and dynamic inspection of stripped, asynchronous binaries.
+Versatile software engineer, game mod developer, and systems researcher. Primary focus centers on modern **C# / .NET** architecture, gameplay mechanics modification, high-performance systems programming, and executable deconstruction.
 
-Primary research vectors target Windows memory virtualization, NUMA-aware multi-core execution scheduling, formal semantics extraction through SMT solvers, and reconstruction of high-level state machines from machine code.
+Technical scope spans full-stack C# development, native Windows optimization (NTAPI, NUMA topologies, unbuffered I/O), game engine modification (event bus architectures, state machines, runtime patches), and specialized reverse engineering tooling (Rust, LLVM, AST schema recovery).
 
 ---
 
-## 🔬 Systems Engineering Matrix
+## 🔬 Engineering & Technical Matrix
 
-| Engineering Domain | Core Technologies & Interfaces | Methodological Focus & Primitives |
+| Domain | Core Stack & Technologies | Focus & Primitives |
 | :--- | :--- | :--- |
-| **Operating Systems Internals** | C++20/23, Win32 API, NTAPI (`ntdll.dll`) | Direct system calls, APC dispatch, NUMA node binding, heap virtualization, unbuffered I/O |
-| **Binary Analysis & RE** | x86_64, AArch64, PE/COFF, iced-x86, Capstone | Disassembly graph slicing, control flow flattening defeat, anti-debug bypassing, vtable recovery |
-| **Formal Analysis & Lifting** | Rust (`no_std`), LLVM IR, Symbolic Execution | Semantic synthesis, automated dead-code elimination, bytecode devirtualization, MBA reduction |
-| **Serialization & Wire Protocols**| Rust, Zero-copy memory mapping, Protobuf ABI | Protocol reverse engineering, `TcParseTable` / `upb_MiniTable` table reconstruction, schema inference |
-| **Differential Execution & Tracing**| WinDbg TTD, Frida Stalker, Unicorn / QEMU | Synchronized lock-step trace alignment, Point of Divergence (PoD) detection, flag delta resolving |
+| **Core Software Architecture** | C# (.NET 8/9), LINQ, Async/Await, P/Invoke | Object-oriented systems, high-level API design, native interoperability, memory safety |
+| **Game Modding & Engine Internals**| C#, Java, NeoForge, Modding APIs, Mixins | Event pipelines, game loop hooks, dynamic difficulty modifiers, custom trial & loot registries |
+| **Operating Systems Internals** | C++20/23, Win32 API, NTAPI (`ntdll.dll`) | Direct system calls, NUMA node binding, heap virtualization, unbuffered overlapped I/O |
+| **Binary Analysis & RE Tooling** | Rust, x86_64, iced-x86, Capstone | Protobuf wire recovery, async state machine linearizers, GBNF struct solving, MBA simplifiers |
+| **Differential Execution & Tracing**| WinDbg TTD, Frida Stalker, Unicorn / QEMU | Synchronized trace alignment, Point of Divergence (PoD) detection, flag delta resolving |
 
 ---
 
-## 🚀 Production & Research Artifacts
+## 🚀 Featured Projects & Production Artifacts
 
-### 👑 Flagship Systems Core
+### 🎮 Game Modding & Runtime Extensions
+
+* **[scavenger-extra-trials](https://github.com/JoiveSer/scavenger-extra-trials)** — *Modular gameplay modifier extension & trial mechanics add-on for NeoForge.*
+  * Integrates with modern modloader event dispatch pipelines and dynamic loot/trial registries.
+  * Engineered with custom gameplay mechanics, state injection, and configurable difficulty modifiers.
+
+---
+
+### 👑 High-Performance Systems Core
 
 * **[ClusterShift](https://github.com/JoiveSer/ClusterShift)** — *Universal high-performance Win32 storage optimizer, unbuffered QD32 hardware benchmark & multi-core space analyzer for Windows 10/11.*
   * Implements direct execution control through undocumented NTAPI routines, bypassing standard Win32 file abstraction overhead.
@@ -80,7 +89,7 @@ Primary research vectors target Windows memory virtualization, NUMA-aware multi-
 
 ## ☕ Research Funding & Sponsorship
 
-Developing specialized binary analysis toolsets, maintaining disassembler integrations, and conducting low-level systems research requires continuous testing infrastructure and physical hardware platforms. Independent engineering efforts can be sponsored directly via:
+Developing specialized software toolsets, maintaining open-source engines, and conducting low-level systems research requires continuous testing infrastructure and hardware platforms. Independent engineering efforts can be sponsored directly via:
 
 [![Support via Ko-fi](https://img.shields.io/badge/Support%20Research-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/joive)
 
@@ -88,7 +97,7 @@ Developing specialized binary analysis toolsets, maintaining disassembler integr
 
 ## 🔬 Technical References & Influences
 
-The architecture and methodologies incorporated across these projects draw foundation from peer research within the low-level security and systems domain:
+The architecture and methodologies incorporated across these projects draw foundation from peer research within the low-level security, systems, and modding domains:
 
 * **[Axel Souchet (0vercl0k)](https://github.com/0vercl0k)** — Snapshot-based fuzzing architectures (`wtf`), minidump parsing, and rigorous bug triage.
 * **[Duncan Ogilvie (mrexodia)](https://github.com/mrexodia)** — Windows debugging internals (`x64dbg`), emulation harnesses, and analysis tooling.

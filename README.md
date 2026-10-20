@@ -2,54 +2,61 @@
 
 # JoiveSer
 
-### Software Architect, Game Modder & Systems Engineer
-**C# / .NET | Game Modding & Internals | Systems Programming | Reverse Engineering**
+### Software Architect, Game Modder & Systems Developer
+**C# / .NET | Game Modding & Minecraft | High-Performance Systems | Binary Analysis**
 
 <br/>
 
 [![C# / .NET](https://img.shields.io/badge/C%23-Modern%20.NET-161b22?style=flat-square&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/)
-[![Rust Systems](https://img.shields.io/badge/Rust-Systems%20%7C%20Tooling-161b22?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![C++20/23](https://img.shields.io/badge/C%2B%2B-20%2F23-161b22?style=flat-square&logo=c%2B%2B&logoColor=white)](https://en.cppreference.com/)
-[![Game Modding](https://img.shields.io/badge/Modding-NeoForge%20%7C%20Game%20Internals-161b22?style=flat-square&logo=curseforge&logoColor=white)](https://github.com/JoiveSer)
-[![Windows NTAPI](https://img.shields.io/badge/Windows-NTAPI%20%7C%20Win32-161b22?style=flat-square&logo=windows&logoColor=white)](https://learn.microsoft.com/en-us/windows/win32/)
-[![Binary Analysis](https://img.shields.io/badge/Analysis-IDA%20%7C%20Ghidra%20%7C%20x64dbg-161b22?style=flat-square&logo=target&logoColor=white)](https://github.com/JoiveSer)
+[![Minecraft Modding](https://img.shields.io/badge/Minecraft-NeoForge%20Modding-161b22?style=flat-square&logo=curseforge&logoColor=white)](https://github.com/JoiveSer)
+[![C++20 Systems](https://img.shields.io/badge/C%2B%2B-20%2F23%20Win32-161b22?style=flat-square&logo=c%2B%2B&logoColor=white)](https://en.cppreference.com/)
+[![Rust Tooling](https://img.shields.io/badge/Rust-Systems%20%7C%20Analysis-161b22?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![Web & Guides](https://img.shields.io/badge/Web-Guides%20%26%20Docs-161b22?style=flat-square&logo=markdown&logoColor=white)](https://github.com/JoiveSer)
 [![Support Ko-fi](https://img.shields.io/badge/Support-Ko--fi-161b22?style=flat-square&logo=ko-fi&logoColor=FF5E5B)](https://ko-fi.com/joive)
 
 </div>
 
 ---
 
-## 🏛️ Architectural Profile
+## 🏛️ About & Engineering Focus
 
-Versatile software engineer, game mod developer, and systems researcher. Primary focus centers on modern **C# / .NET** architecture, gameplay mechanics modification, high-performance systems programming, and executable deconstruction.
+Multi-disciplinary software developer and creator. Primary engineering language and core background is **C# / .NET**, spanning application development, game modding ecosystems, high-performance native Windows software, and specialized binary analysis tools.
 
-Technical scope spans full-stack C# development, native Windows optimization (NTAPI, NUMA topologies, unbuffered I/O), game engine modification (event bus architectures, state machines, runtime patches), and specialized reverse engineering tooling (Rust, LLVM, AST schema recovery).
+My work covers a broad spectrum of software engineering:
+* **Game Modding & Mechanics:** Minecraft mod development on modern NeoForge, custom trial mechanics, loot pipelines, and game loop integrations.
+* **Community Platforms & Web:** Building and curating structured game guides, documentation sites, and web resources.
+* **High-Performance Systems:** Windows storage optimization, unbuffered asynchronous I/O completion ports, and direct NTAPI execution engines.
+* **Binary Analysis & RE:** Automated decompilation tooling in Rust for stripped binaries, protobuf schema recovery, coroutine linearizers, and bytecode devirtualizers.
 
 ---
 
-## 🔬 Engineering & Technical Matrix
+## 🔬 Skills & Technology Matrix
 
 | Domain | Core Stack & Technologies | Focus & Primitives |
 | :--- | :--- | :--- |
-| **Core Software Architecture** | C# (.NET 8/9), LINQ, Async/Await, P/Invoke | Object-oriented systems, high-level API design, native interoperability, memory safety |
-| **Game Modding & Engine Internals**| C#, Java, NeoForge, Modding APIs, Mixins | Event pipelines, game loop hooks, dynamic difficulty modifiers, custom trial & loot registries |
-| **Operating Systems Internals** | C++20/23, Win32 API, NTAPI (`ntdll.dll`) | Direct system calls, NUMA node binding, heap virtualization, unbuffered overlapped I/O |
-| **Binary Analysis & RE Tooling** | Rust, x86_64, iced-x86, Capstone | Protobuf wire recovery, async state machine linearizers, GBNF struct solving, MBA simplifiers |
-| **Differential Execution & Tracing**| WinDbg TTD, Frida Stalker, Unicorn / QEMU | Synchronized trace alignment, Point of Divergence (PoD) detection, flag delta resolving |
+| **Core Software Architecture** | C# (.NET 8/9), LINQ, Async/Await, P/Invoke | Object-oriented architecture, native interop, desktop utilities, backend APIs |
+| **Game Modding & Mechanics** | Java, Minecraft NeoForge, Game Internals | Custom modifiers, trial mechanisms, event-driven game hooks, dynamic loot registries |
+| **Web & Community Resources** | HTML5, CSS3, Markdown, Web Guides | Structured knowledge bases, responsive game documentation, community resource curation |
+| **High-Performance Systems** | Modern C++20, Win32 API, NTAPI (`ntdll.dll`) | Direct system calls, NUMA topology binding, unbuffered QD32 hardware benchmarks |
+| **Binary Analysis & RE Tooling** | Rust, x86_64, iced-x86, LLVM IR | Zero-knowledge Protobuf extraction, Tokio async desugaring, GBNF struct solving, MBA simplifiers |
 
 ---
 
-## 🚀 Featured Projects & Production Artifacts
+## 🚀 Projects & Production Artifacts
 
-### 🎮 Game Modding & Runtime Extensions
+### 🎮 Game Modding & Community Resources
 
-* **[scavenger-extra-trials](https://github.com/JoiveSer/scavenger-extra-trials)** — *Modular gameplay modifier extension & trial mechanics add-on for NeoForge.*
-  * Integrates with modern modloader event dispatch pipelines and dynamic loot/trial registries.
-  * Engineered with custom gameplay mechanics, state injection, and configurable difficulty modifiers.
+* **[scavenger-extra-trials](https://github.com/JoiveSer/scavenger-extra-trials)** — *Minecraft NeoForge add-on expanding the Scavenger mod with high-tier modifiers and challenging trial mechanics.*
+  * Extends gameplay with custom modifier events, dynamic difficulty scaling, and trial reward mechanics.
+  * Built for modern Minecraft modloaders using clean, event-driven NeoForge registries.
+
+* **[CSC-Guides-Fork](https://github.com/JoiveSer/CSC-Guides-Fork)** — *Community game guides and comprehensive documentation portal.*
+  * Structured references, walkthroughs, and mechanic breakdowns for community players and modders.
+  * Clean, fast web styling designed for quick lookup and navigation.
 
 ---
 
-### 👑 High-Performance Systems Core
+### ⚡ High-Performance Systems & Native Tools
 
 * **[ClusterShift](https://github.com/JoiveSer/ClusterShift)** — *Universal high-performance Win32 storage optimizer, unbuffered QD32 hardware benchmark & multi-core space analyzer for Windows 10/11.*
   * Implements direct execution control through undocumented NTAPI routines, bypassing standard Win32 file abstraction overhead.
@@ -58,12 +65,11 @@ Technical scope spans full-stack C# development, native Windows optimization (NT
 
 ---
 
-### 🛡️ The Reverse Engineering & Systems Suite
+### 🛡️ Reverse Engineering & Binary Analysis Suite
 
 * **[ProtoSieve](https://github.com/JoiveSer/ProtoSieve)** — *Zero-knowledge static schema recovery engine for table-driven Protobuf (`TcParseTable` & `upb_MiniTable`) from stripped PE/ELF binaries.*
   * Recovers message field boundaries, wire types, tag identifiers, and packed struct offsets from read-only data without reflection tables.
   * Emits compilable `.proto` schema definitions and structured JSON AST models with zero heap allocation overhead.
-  * Engineered in pure Safe Rust with zero-copy memory-mapped PE/ELF ingestion pipelines.
 
 * **[DeTokio](https://github.com/JoiveSer/DeTokio)** — *Automated coroutine & async state machine desugaring engine for Rust binaries (`Future::poll` linearizer).*
   * Resolves compiler-generated asynchronous state machines created by Tokio and async runtimes directly from stripped binaries.
@@ -78,7 +84,7 @@ Technical scope spans full-stack C# development, native Windows optimization (NT
 * **[TraceDiff](https://github.com/JoiveSer/TraceDiff)** — *Execution trace differential analysis platform designed for behavioral divergence mapping & anti-analysis detection.*
   * Ingests deterministic instruction streams (WinDbg TTD, Frida Stalker, Unicorn/QEMU logs) bypassing noisy hardware ring buffers.
   * Synchronizes multi-thousand instruction streams, flags exact Point of Divergence (PoD), and decomposes root-cause branch mutations.
-  * Analyzes register deltas and flags (`ZF`, `CF`, `SF`), emitting interactive ANSI split-screen diffs, Mermaid graphs, and JSON reports.
+  * Emits interactive ANSI split-screen diffs, Mermaid graphs, and structured JSON reports.
 
 * **[VMSmith](https://github.com/JoiveSer/VMSmith)** — *Constraint-guided bytecode devirtualizer & Mixed Boolean-Arithmetic (MBA) micro-synthesizer for VMProtect 3.x / Tigress virtualized routines.*
   * Simulates virtual stack machines (`VSP`/`VIP`/`VREGS`) symbolically, lifting raw virtual bytecode into normalized expression trees.
@@ -87,25 +93,14 @@ Technical scope spans full-stack C# development, native Windows optimization (NT
 
 ---
 
-## ☕ Research Funding & Sponsorship
+## ☕ Support & Sponsorship
 
-Developing specialized software toolsets, maintaining open-source engines, and conducting low-level systems research requires continuous testing infrastructure and hardware platforms. Independent engineering efforts can be sponsored directly via:
+Developing open-source software, game mods, community resources, and specialized systems tools:
 
-[![Support via Ko-fi](https://img.shields.io/badge/Support%20Research-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/joive)
-
----
-
-## 🔬 Technical References & Influences
-
-The architecture and methodologies incorporated across these projects draw foundation from peer research within the low-level security, systems, and modding domains:
-
-* **[Axel Souchet (0vercl0k)](https://github.com/0vercl0k)** — Snapshot-based fuzzing architectures (`wtf`), minidump parsing, and rigorous bug triage.
-* **[Duncan Ogilvie (mrexodia)](https://github.com/mrexodia)** — Windows debugging internals (`x64dbg`), emulation harnesses, and analysis tooling.
-* **[Jonathan Salwan](https://github.com/JonathanSalwan)** — Symbolic execution frameworks (`Triton`), binary lifting methodologies, and instruction synthesis.
-* **[hasherezade](https://github.com/hasherezade)** — In-memory PE file inspection (`pe-sieve`), payload extraction, and memory anomaly detection.
+[![Support via Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/joive)
 
 ---
 
 <div align="center">
-<sub>All research and production artifacts are distributed under permissive open-source licenses for security research and systems verification.</sub>
+<sub>Crafted with passion for C#, game modding, systems architecture, and open-source software.</sub>
 </div>
